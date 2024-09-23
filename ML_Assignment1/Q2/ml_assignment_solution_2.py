@@ -28,7 +28,7 @@ class Node:
         self.attribute = attribute
         self.label = label
         self.branches = branches or {}
-#Creating different functions to calculate Enropy, Gini Index and Majority Error.
+#Creating different functions to calculate Entropy, Gini Index and Majority Error.
 def load_data(filename):
     with open(filename, 'r') as f:
         return [line.strip().split(',') for line in f]
