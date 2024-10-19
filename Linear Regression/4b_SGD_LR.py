@@ -16,8 +16,8 @@ import random
 
 
 # Let's start with reading the datasets
-train_data = pd.read_csv("concrete/train.csv",header=None)
-test_data = pd.read_csv("concrete/test.csv",header=None)
+train_data = pd.read_csv("Concrete/train.csv",header=None)
+test_data = pd.read_csv("Concrete/test.csv",header=None)
 
 # Training the datasets
 X = train_data.iloc[:,:-1]
