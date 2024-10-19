@@ -79,7 +79,7 @@ def plot_training_cost(training_costs):
     plt.grid(True)
     plt.legend()
     plt.show()
-
+# Adding the values in a table
 def display_iteration_table(iteration_data):
     # Using this to Convert iteration data to a DataFrame for better visualization
     iteration_df = pd.DataFrame(iteration_data, columns=['Iteration', 'Training Cost', 'Max Weight Change', 'Learning Rate', 'Gradient Norm'])
@@ -100,7 +100,7 @@ def main():
     print(f"Final weights: {weights}")
     print(f"Final training cost: {training_costs[-1]:.6f}")
 
-    # Let's put the data in a table
+    # Display of data in table format for better understanding
     display_iteration_table(iteration_data)
 
     # Plot training cost for better visualization
