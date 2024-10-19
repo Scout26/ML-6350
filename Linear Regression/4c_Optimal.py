@@ -10,7 +10,7 @@ Original file is located at
 import numpy as np
 import pandas as pd
 
-train_data = pd.read_csv("concrete/train.csv",header=None)
+train_data = pd.read_csv("Concrete/train.csv",header=None)
 
 X = train_data.iloc[:,:-1]
 Y = train_data.iloc[:,-1]
