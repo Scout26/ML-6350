@@ -88,8 +88,8 @@ def display_iteration_table(iteration_data):
 def main():
     # Now we will start to Load and prepare data
     print("Loading data...")
-    X_train, y_train = load_and_prepare_data("concrete/train.csv")
-    X_test, y_test = load_and_prepare_data("concrete/test.csv")
+    X_train, y_train = load_and_prepare_data("Concrete/train.csv")
+    X_test, y_test = load_and_prepare_data("Concrete/test.csv")
 
     print("\nTraining model...")
     weights, training_costs, iteration_data, iterations = train_lms_regression(X_train, y_train)
