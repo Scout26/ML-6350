@@ -75,7 +75,7 @@ for epoch in range(epochs):
 distinct_weight_vectors = weights_list
 count_list = count_values
 
-# Testing
+# Testing on the given data
 predicted_labels_test = voted_weighted_prediction(features_test_aug, distinct_weight_vectors, count_list)
 test_error_count = 0
 for actual, predicted in zip(labels_test, predicted_labels_test):
