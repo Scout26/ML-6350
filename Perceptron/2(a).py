@@ -52,5 +52,5 @@ for feature, label in zip(features_test_aug, labels_test):
 
 # Final Required Output according to the questions
 print("Learned weight vector is", weight_vector)
-print("Averagebprediction error:", misclassification_count / len(features_test_aug))
+print("Average prediction error:", misclassification_count / len(features_test_aug))
 
