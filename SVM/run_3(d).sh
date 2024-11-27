@@ -1,3 +1,3 @@
 #!/bin/sh
 ./install.sh
-python3 2(d).py
+python3 3(d).py
