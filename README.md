@@ -17,3 +17,9 @@ Installation instructions(Run this before you run the other shell-scripts):
 Installation instructions:
 1. Install math, pandas, numpy by running
 2. ./install.sh
+
+# For running the SVM:
+Installation instructions:
+1. Run the sh files for each problem like run_2a.sh, run_3a.sh, etc.
+1. Install math, pandas, numpy,scipy by running
+2. ./install.sh
