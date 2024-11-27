@@ -98,7 +98,7 @@ for gamma in gamma_list:
         # Print the number of support vectors
         print(f"For value of C = {C:.4f}, Value of Gamma = {gamma}: Count of Support Vectors = {len(support_indices)}")
 
-# Compare overlap of support vectors for consecutive gamma values when C is 500/873
+# Compare when C is 500/873
 target_C = 500 / 873
 overlap_counts = []
 for idx in range(len(gamma_list) - 1):
