@@ -56,8 +56,17 @@ def kernel_based_perceptron(train_features, train_labels, test_features, test_la
 
     return error_train, error_test
 
-# Print the values
+# PrepaWriting the results list for tabular storage
+results = []
+
+# Combining the results
 for gamma_value in gamma_options:
     train_err, test_err = kernel_based_perceptron(features_train, labels_train, features_test, labels_test, gamma_value)
-    print(f"For value of Gamma = {gamma_value}: Training Error = {train_err:.2f}, Test Error = {test_err:.4f}")
+    results.append([gamma_value, train_err, test_err])
+
+# Convert the results  to a DataFrame
+results_df = pd.DataFrame(results, columns=["Gamma Value", "Training Error", "Test Error"])
+
+# Writing the results in Table format for better representation.
+print(results_df.to_string(index=False, float_format="{:.4f}".format))
 
