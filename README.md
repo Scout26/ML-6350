@@ -23,3 +23,15 @@ Installation instructions:
 1. Run the sh files for each problem like run_2a.sh, run_3a.sh, etc.
 1. Install math, pandas, numpy,scipy by running
 2. ./install.sh
+
+# For running the Logistic Regression:
+Installation instructions:
+1. Run the sh files for each problem like run_2a.sh, run_3a.sh, etc.
+1. Install math, pandas, numpy,scipy by running
+2. ./install.sh
+
+# For running the Neural Networks:
+Installation instructions:
+1. Run the sh files for each problem like run_2a.sh, run_3a.sh, etc.
+1. Install math, pandas, numpy,scipy by running
+2. ./install.sh
