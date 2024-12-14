@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 decision_tree.py
+python3 gbm.py
